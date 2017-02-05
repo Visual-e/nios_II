@@ -1,0 +1,7 @@
+	component nios_cpu is
+		port (
+			clk_clk     : in  std_logic                     := 'X'; -- clk
+			port_export : out std_logic_vector(31 downto 0)         -- export
+		);
+	end component nios_cpu;
+

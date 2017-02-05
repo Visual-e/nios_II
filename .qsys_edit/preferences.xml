@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library,Library/Basic Functions,Library/Basic Functions/On Chip Memory,Project" />
+ <window width="1125" height="785" x="49" y="53" />
+ <generation simulation="VERILOG" path="nios_cpu" />
+</preferences>

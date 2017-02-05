@@ -1,0 +1,170 @@
+Info: Starting: Create simulation model
+Info: qsys-generate E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu.qsys --simulation=VERILOG --output-directory=E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu\simulation --family="Cyclone IV E" --part=EP4CE10E22I7
+Progress: Loading nios_II/nios_cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 15.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 15.1]
+Progress: Parameterizing module pio_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_cpu.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: nios_cpu: Generating nios_cpu "nios_cpu" for SIM_VERILOG
+Info: nios2_qsys_0: Starting RTL generation for module 'nios_cpu_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/eperlcmd.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_cpu_nios2_qsys_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0001_nios2_qsys_0_gen/ --quartus_bindir=D:/dev/altera/15.1/quartus/bin64 --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0001_nios2_qsys_0_gen//nios_cpu_nios2_qsys_0_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0001_nios2_qsys_0_gen/  ]
+Info: nios2_qsys_0: # 2016.02.21 17:05:38 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2016.02.21 17:05:38 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   Couldn't query license setup in Quartus directory D:/dev/altera/15.1/quartus/bin64
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2016.02.21 17:05:42 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2016.02.21 17:05:43 (*)   Creating 'C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0001_nios2_qsys_0_gen//nios_cpu_nios2_qsys_0_nios2_waves.do'
+Info: nios2_qsys_0: # 2016.02.21 17:05:44 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2016.02.21 17:05:44 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2016.02.21 17:05:46 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'nios_cpu_nios2_qsys_0'
+Info: nios2_qsys_0: "nios_cpu" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_cpu_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/perl/bin/perl.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_cpu_onchip_memory2_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0002_onchip_memory2_0_gen/ --quartus_dir=D:/dev/altera/15.1/quartus --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0002_onchip_memory2_0_gen//nios_cpu_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0002_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_cpu_onchip_memory2_0'
+Info: onchip_memory2_0: "nios_cpu" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'nios_cpu_pio_0'
+Info: pio_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/perl/bin/perl.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_pio_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0003_pio_0_gen/ --quartus_dir=D:/dev/altera/15.1/quartus --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0003_pio_0_gen//nios_cpu_pio_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0003_pio_0_gen/  ]
+Info: pio_0: Done RTL generation for module 'nios_cpu_pio_0'
+Info: pio_0: "nios_cpu" instantiated altera_avalon_pio "pio_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_cpu" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_cpu" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_cpu" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_cpu: Done "nios_cpu" with 20 modules, 40 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu\nios_cpu.spd --output-directory=E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu\nios_cpu.spd --output-directory=E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	19 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/simulation/.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu.qsys --block-symbol-file --output-directory=E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu --family="Cyclone IV E" --part=EP4CE10E22I7
+Progress: Loading nios_II/nios_cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 15.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 15.1]
+Progress: Parameterizing module pio_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_cpu.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu.qsys --synthesis=VERILOG --output-directory=E:\projects\prj_fpga_altera\prj_VE-EP4CE10E\EP4CE10E\sourse\nios_II\nios_cpu\synthesis --family="Cyclone IV E" --part=EP4CE10E22I7
+Progress: Loading nios_II/nios_cpu.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.1]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 15.1]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 15.1]
+Progress: Parameterizing module pio_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_cpu.nios2_qsys_0: Nios II Classic cores are no longer recommended for new projects
+Info: nios_cpu: Generating nios_cpu "nios_cpu" for QUARTUS_SYNTH
+Info: nios2_qsys_0: Starting RTL generation for module 'nios_cpu_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/eperlcmd.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2 -I D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2 -- D:/dev/altera/15.1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_cpu_nios2_qsys_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0018_nios2_qsys_0_gen/ --quartus_bindir=D:/dev/altera/15.1/quartus/bin64 --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0018_nios2_qsys_0_gen//nios_cpu_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2016.02.21 17:06:00 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2016.02.21 17:06:00 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   Couldn't query license setup in Quartus directory D:/dev/altera/15.1/quartus/bin64
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2016.02.21 17:06:04 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2016.02.21 17:06:06 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2016.02.21 17:06:06 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2016.02.21 17:06:08 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'nios_cpu_nios2_qsys_0'
+Info: nios2_qsys_0: "nios_cpu" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_cpu_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/perl/bin/perl.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_cpu_onchip_memory2_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0019_onchip_memory2_0_gen/ --quartus_dir=D:/dev/altera/15.1/quartus --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0019_onchip_memory2_0_gen//nios_cpu_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_cpu_onchip_memory2_0'
+Info: onchip_memory2_0: "nios_cpu" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'nios_cpu_pio_0'
+Info: pio_0:   Generation command is [exec D:/dev/altera/15.1/quartus/bin64/perl/bin/perl.exe -I D:/dev/altera/15.1/quartus/bin64/perl/lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin/europa -I D:/dev/altera/15.1/quartus/sopc_builder/bin/perl_lib -I D:/dev/altera/15.1/quartus/sopc_builder/bin -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/common -I D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- D:/dev/altera/15.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_cpu_pio_0 --dir=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0020_pio_0_gen/ --quartus_dir=D:/dev/altera/15.1/quartus --verilog --config=C:/Users/Visuale/AppData/Local/Temp/alt6852_5552157949113823510.dir/0020_pio_0_gen//nios_cpu_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'nios_cpu_pio_0'
+Info: pio_0: "nios_cpu" instantiated altera_avalon_pio "pio_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_cpu" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_cpu" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_cpu" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_data_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_data_master_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/projects/prj_fpga_altera/prj_VE-EP4CE10E/EP4CE10E/sourse/nios_II/nios_cpu/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_cpu: Done "nios_cpu" with 20 modules, 33 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
